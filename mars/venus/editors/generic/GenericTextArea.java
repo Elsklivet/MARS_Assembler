@@ -58,6 +58,7 @@ public class GenericTextArea extends JTextArea implements MARSTextEditingArea
 		this.setTabSize(Globals.getSettings().getEditorTabSize());
 		this.setMargin(new Insets(0, 3, 3, 3));
 		this.setCaretBlinkRate(Globals.getSettings().getCaretBlinkRate());
+		//this.setBackground(new Color(69, 70, 92));
 
 		JPanel source = new JPanel(new BorderLayout());
 		source.add(lineNumbers, BorderLayout.WEST);
@@ -141,7 +142,8 @@ public class GenericTextArea extends JTextArea implements MARSTextEditingArea
 	public void setSourceCode(String s, boolean editable)
 	{
 		this.setText(s);
-		this.setBackground((editable) ? Color.WHITE : Color.GRAY);
+		this.setForeground((editable) ? new Color(236, 94, 19) : Color.BLACK);
+		this.setBackground((editable) ? new Color(69, 70, 92) : Color.GRAY);
 		this.setEditable(editable);
 		this.setEnabled(editable);
 		this.getCaret().setVisible(editable);

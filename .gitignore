@@ -1,8 +1,11 @@
 *.class
 .DS_Store
 commitmsg.txt
+.vscode
 *.sublime-project
 *.sublime-workspace
 astyle*
 *.jar
+!lib/*.jar
 *.asm
+*.ps1

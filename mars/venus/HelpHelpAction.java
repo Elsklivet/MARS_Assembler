@@ -56,7 +56,7 @@ public class HelpHelpAction extends GuiAction
 	}
 
 	// Light gray background color for alternating lines of the instruction lists
-	static Color altBackgroundColor = new Color(0xEE, 0xEE, 0xEE);
+	static Color altBackgroundColor = new Color(82, 82, 82);
 
 	/**
 	 *  Separates Instruction name descriptor from detailed (operation) description
@@ -206,12 +206,12 @@ public class HelpHelpAction extends GuiAction
 	private JPanel createMipsHelpInfoPanel()
 	{
 		JPanel mipsHelpInfo = new JPanel(new BorderLayout());
-		String helpRemarksColor = "CCFF99";
+		String helpRemarksColor = "25341A";
 		// Introductory remarks go at the top as a label
 		String helpRemarks =
 			"<html><center><table bgcolor=\"#" + helpRemarksColor + "\" border=0 cellpadding=0>" + // width="+this.getSize().getWidth()+">"+
 			"<tr>" +
-			"<th colspan=2><b><i><font size=+1>&nbsp;&nbsp;Operand Key for Example Instructions&nbsp;&nbsp;</font></i></b></th>" +
+			"<th colspan=2><b><i><font size=+1 color=\"B8B8B8\">&nbsp;&nbsp;Operand Key for Example Instructions&nbsp;&nbsp;</font></i></b></th>" +
 			"</tr>" +
 			"<tr>" +
 			"<td><tt>label, target</tt></td><td>any textual label</td>" +

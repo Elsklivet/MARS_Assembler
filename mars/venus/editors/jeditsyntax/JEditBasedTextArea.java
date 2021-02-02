@@ -61,6 +61,7 @@ public class JEditBasedTextArea extends JEditTextArea implements MARSTextEditing
 			}
 		};
 		this.getDocument().addUndoableEditListener(undoableEditListener);
+		this.setBackground(new Color(100, 100, 100));
 		this.setFont(Globals.getSettings().getEditorFont());
 		this.setTokenMarker(new MIPSTokenMarker());
 
@@ -184,7 +185,7 @@ public class JEditBasedTextArea extends JEditTextArea implements MARSTextEditing
 	public void setSourceCode(String s, boolean editable)
 	{
 		this.setText(s);
-		this.setBackground((editable) ? Color.WHITE : Color.GRAY);
+		this.setBackground((editable) ? new Color(69, 70, 92) : Color.GRAY);
 		this.setEditable(editable);
 		this.setEnabled(editable);
 		//this.getCaret().setVisible(editable);

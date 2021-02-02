@@ -38,6 +38,7 @@ public class Mars
 {
 	public static void main(String[] args)
 	{
+		com.formdev.flatlaf.FlatDarkLaf.install();
 		new mars.MarsLaunch(args);
 	}
 }

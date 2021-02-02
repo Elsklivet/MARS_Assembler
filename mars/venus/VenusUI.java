@@ -1,4 +1,5 @@
 package mars.venus;
+
 import mars.*;
 import mars.mips.dump.*;
 import javax.swing.*;
@@ -161,7 +162,9 @@ public class VenusUI extends JFrame
 		// JB: set the look and feel cause Swing looks terrible
 		try
 		{
-			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+			//BasicLookAndFeel darcula = new DarculaLaf();
+        	UIManager.setLookAndFeel(new com.formdev.flatlaf.FlatDarkLaf());
+			//UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		}
 		catch(Exception e) {}
 		mainUI = this;
