@@ -4,15 +4,15 @@
 MARS has been jointly developed by [Pete Sanderson][4] (programming) and [Ken Vollmar][5] (details and paperwork).
 
 ## Last update
-Aug. 2014
+Feb. 2021
 
 ## Download
 You can download the latest version [at the official website][6].
 
-## Purpose of this repo
-This repo is a mirror of the source code of MARS Assembler. Though the source code is into the "MARS.jar" file at the download page, this is a mirror for people who wants to have the source code forked or that stuff.
+## Purpose of this fork
+I forked this off of Jarrett's only with the intent to add a dark mode so that I could use it. 
 
-I'm not going to accept any pull request. This source code is not maintained by me but the original developers. If you want to contribute to the project, you should talk with them [going here][8].
+[The original developers][8] are responsible for any *real* code up-keep.
 
 ## Documentation (included in the repo)
  - Go to the [documentation][7].
@@ -24,6 +24,7 @@ I'm not going to accept any pull request. This source code is not maintained by 
  - **Option C**: DOS shell using Java classes. Save the jar file in some folder. Open a DOS shell in that folder. Rename the jar file to "Mars.jar" for convenience. Extract MARS files with the DOS command  jar -xf Mars.jar Run MARS with the DOS command  java Mars
 
 ## How to compile
+*Note*: You can't really compile this fork and branch (dark-mode) as of now, it only runs through a powershell script with a VSCode project. I'll update once it jars and works.
  - **Windows**: execute "CreateMarsJar.bat" file to generate an executable.
  - **GNU/Linux** and **Mac**: execute the "CreateMarsJar.sh" to generate an executable. If you can't due of permissions, do a "**chmod +x CreateMarsJar.sh**" (Thanks to [@aesptux][8] to be the tester in Mac).
 
