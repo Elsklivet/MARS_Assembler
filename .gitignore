@@ -6,6 +6,7 @@ commitmsg.txt
 *.sublime-workspace
 astyle*
 *.jar
-!lib/*.jar
 *.asm
 *.ps1
+!com/formdev/flatlaf/*/*.class
+!META-INF/**/*.class
