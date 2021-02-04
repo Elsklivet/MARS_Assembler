@@ -24,7 +24,6 @@ I forked this off of Jarrett's only with the intent to add a dark mode so that I
  - **Option C**: DOS shell using Java classes. Save the jar file in some folder. Open a DOS shell in that folder. Rename the jar file to "Mars.jar" for convenience. Extract MARS files with the DOS command  jar -xf Mars.jar Run MARS with the DOS command  java Mars
 
 ## How to compile
-*Note*: You can't really compile this fork and branch (dark-mode) as of now, it only runs through a powershell script with a VSCode project. I'll update once it jars and works.
  - **Windows**: execute "CreateMarsJar.bat" file to generate an executable.
  - **GNU/Linux** and **Mac**: execute the "CreateMarsJar.sh" to generate an executable. If you can't due of permissions, do a "**chmod +x CreateMarsJar.sh**" (Thanks to [@aesptux][8] to be the tester in Mac).
 
